@@ -1,0 +1,6 @@
+# No external pip packages required.
+# Project uses only Python standard library modules:
+# - tkinter
+# - math
+# - random
+
