@@ -3,6 +3,7 @@ Python Tic Tac Toe GUI
     A simple but complete Tkinter-based Tic Tac Toe game featuring multiple difficulty levels, a clean interface, and intuitive gameplay. Designed for beginner to intermediate Python users looking to explore GUI programming and basic game AI.
 
 Features
+    
     Player vs Player
         Two players alternate turns on a standard 3×3 grid.
 
@@ -40,19 +41,20 @@ Tkinter GUI
 
 Project Structure:
 
-project/
-│
-├── main.py                     # Main menu GUI
-├── modes/
-│   ├── pvp.py                  # Player vs Player logic and UI
-│   ├── easy.py                 # Easy AI logic
-│   ├── medium.py               # Medium AI logic
-│   ├── hard.py                 # Hard AI (Minimax algorithm)
-│   └── history_functions.py    # Optional history system (unused if removed)
-│
-└── README.md
+    project/
+    │
+    ├── main.py                     # Main menu GUI
+    ├── modes/
+    │   ├── pvp.py                  # Player vs Player logic and UI
+    │   ├── easy.py                 # Easy AI logic
+    │   ├── medium.py               # Medium AI logic
+    │   ├── hard.py                 # Hard AI (Minimax algorithm)
+    │   └── history_functions.py    # Optional history system (unused if removed)
+    │
+    └── README.md
 
 How to Run
+   
     Requirements
 
         Python 3.8 or newer
