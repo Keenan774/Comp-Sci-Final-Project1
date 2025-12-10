@@ -1,100 +1,94 @@
-🧩 Python Tic Tac Toe GUI
+Python Tic Tac Toe GUI
 
-A simple yet complete Tkinter-based Tic Tac Toe game featuring multiple difficulty levels, clean UI, and intuitive gameplay.
+    A simple but complete Tkinter-based Tic Tac Toe game featuring multiple difficulty levels, a clean interface, and intuitive gameplay. Designed for beginner to intermediate Python users looking to explore GUI programming and basic game AI.
 
-🎮 Features
-✔ Player vs Player
+Features
+    Player vs Player
+        Two players alternate turns on a standard 3×3 grid.
 
-Two people can play on the same computer, taking turns on a 3×3 board.
+    Easy Mode
 
-✔ Easy Mode
+        Computer chooses moves completely at random.
 
-AI selects completely random moves. A great mode for beginners.
+    Medium Mode
 
-✔ Medium Mode
+        The AI mixes random choice with minimax AI.
 
-AI uses a mix of random choice and simple strategy (optional depending on your build).
+    Hard Mode (Unbeatable)
 
-✔ Hard Mode (Unbeatable)
+        Implements the Minimax algorithm to evaluate all possible outcomes, making optimal decisions every turn. This mode demonstrates recursion, decision trees, and algorithmic game logic.
 
-AI uses the classic Minimax algorithm, making it impossible to beat.
-Perfect mode to demonstrate algorithmic strategy and recursion.
+Tkinter GUI
 
-✔ Tkinter GUI
+    Graphical interface built using Tkinter with clear buttons and layout. All modes launch from a main menu window.
 
-Simple and beginner-friendly interface, using clean buttons and multiple windows.
+    Multi-Window Navigation
 
-✔ Multi-Window Navigation
+    Includes separate scripts for:
 
-Main Menu
+        Main Menu
 
-PvP Mode
+        Player vs Player
 
-Easy Mode
+        Easy Mode
 
-Medium Mode
+        Medium Mode
 
-Hard Mode
+        Hard Mode
 
-All windows cleanly hide and restore the menu as needed.
+        Each mode opens in its own window while the main menu is hidden and restored appropriately.
 
-📁 Project Structure
+Project Structure:
+
 project/
 │
-├── main.py               # Main menu GUI
+├── main.py                     # Main menu GUI
 ├── modes/
-│   ├── pvp.py            # Player vs Player mode
-│   ├── easy.py           # Easy AI mode
-│   ├── medium.py         # Medium AI mode
-│   ├── hard.py           # Hard Minimax AI mode
-│   └── history_functions.py  # (unused if you removed history features)
+│   ├── pvp.py                  # Player vs Player logic and UI
+│   ├── easy.py                 # Easy AI logic
+│   ├── medium.py               # Medium AI logic
+│   ├── hard.py                 # Hard AI (Minimax algorithm)
+│   └── history_functions.py    # Optional history system (unused if removed)
 │
 └── README.md
 
-▶️ How to Run
-Requirements
+How to Run
+    Requirements
 
-Python 3.8+
+        Python 3.8 or newer
 
-Tkinter (included with most Python installations)
+        Tkinter (included with most Python installations)
 
-Run the game
-python main.py
+Launching the Game
+
+        python main.py
 
 
-The main menu will open automatically, allowing you to choose a game mode.
+        The main menu window will appear, allowing you to select your desired game mode.
 
-🧠 Minimax Overview (Hard Mode)
+Minimax (Hard Mode Algorithm Overview)
 
-The unbeatable AI uses the Minimax algorithm, which:
+    The Hard Mode AI uses the Minimax algorithm to ensure optimal play. It works by:
 
-Simulates every possible move
+    Simulating every possible move.
 
-Evaluates each board state
+    Evaluating board states recursively.
 
-Maximizes AI advantage (O)
+    Maximizing the computer's advantage.
 
-Minimizes opponent advantage (X)
+    Minimizing the player's advantage.
 
-Ensures perfect play
+    This guarantees that the AI cannot be defeated if played correctly.
 
-This mode provides a great example of recursion and algorithmic decision-making.
+Future Development Ideas:
 
-🎨 Screenshots (Optional)
+    Implement game history and replay features
 
-You can add images like:
+    Add sound or visual effects
 
-![Main Menu](screenshots/menu.png)
-![Gameplay](screenshots/gameplay.png)
+    Create score tracking between rounds
 
-💡 Future Improvements
+    Improve interface with graphics or themed styling
 
-Add game history + replay viewer
-
-Add sound effects
-
-Add score tracking
-
-Improve UI with custom graphics
-
-Add animations for winning lines"# Comp-Sci-Final-Project1" 
+    Animate winning lines
+    
