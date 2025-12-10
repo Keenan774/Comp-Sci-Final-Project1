@@ -49,7 +49,6 @@ Project Structure:
     │   ├── easy.py                 # Easy AI logic
     │   ├── medium.py               # Medium AI logic
     │   ├── hard.py                 # Hard AI (Minimax algorithm)
-    │   └── history_functions.py    # Optional history system (unused if removed)
     │
     └── README.md
 
